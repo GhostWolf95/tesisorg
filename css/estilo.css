@@ -1,0 +1,127 @@
+html,body{
+position: relative;
+min-height: 100%;
+padding: 0px;
+margin:0px 0px 0px 0px;
+}
+  .carousel-inner > .item > img,
+
+  .carousel-inner > .item > a > img {
+      width: 100%;
+      margin: auto;
+  }
+
+  header{
+  	max-width: 100%;
+  	background-color: #2ecc71;
+    overflow-x: hidden;
+  }
+  .logo{
+  	width: 100%;
+  	height: 8%;
+  	padding-top: 10%;
+  	margin-left: 80%;
+  }
+  h3{
+  	color:white;
+  	margin-top: -2%;
+  	margin-left: 75%;
+  	padding-bottom: 1%;
+  }
+
+  nav{
+  	margin-top: 4%;
+  	margin-left: 3.5%;
+  	margin-right: 2%;
+  	padding-bottom: 4.5%;
+
+  }
+  nav #opciones ul{
+  	margin-left: 9.5%;
+  }
+
+  nav #opciones ul li{
+  	height: 51px;
+  	background-color:#2ecc71 ;
+  	padding-right: 5px;
+  }
+
+  nav #opciones ul li a{
+	background-color:#D8D8D8;
+	box-shadow: 4px 4px 6px #999;
+	text-align: center;
+	width: 160px;
+	margin-left: 2%;
+	margin-right: 2%;
+
+  }
+
+  h2{
+  	text-align: center;
+  }
+
+  .somos{
+  	margin-top: 6%;
+  	margin-left: 2%;
+  	background-color: #D8D8D8;
+  	height: 480px;
+  	text-align: justify;
+  	box-shadow: 6px 6px 8px #999;
+  }
+
+  #caja_flotante{
+		padding-top: 6%;
+		margin-left: 60%;
+  }
+
+  #caja_flotante img{
+  	width: 60%;
+  	height: 60%;
+  	padding-top: 8px;
+  }
+
+  footer{
+  	background-color: #2ecc71;
+  	height: 40px;
+  	padding-top: 1%;
+  	text-align: center;
+    min-width: 100%;
+  }
+
+  #btn{
+    margin-left: 230px;
+    padding: 10px 20px 10px 20px;
+  }
+  #btn2{
+    margin-left: 260px;
+    padding: 10px 20px 10px 20px;
+  }
+  #btn1{
+    margin-left: 400px;
+    padding: 10px 20px 10px 20px;
+  }
+  #btn3{
+    margin-left: 500px;
+    padding: 10px 20px 10px 20px;
+  }
+  #cont{
+    margin: 20px 0 20px 0;
+  }
+  #cont1{
+    margin: 140px 0 0px 0;
+  }
+  #foot{
+    margin-top: 187px;
+  }
+  #foot1{
+    margin-top: 214px;
+  }
+  #foot2{
+    margin-top: 215px;
+  }
+  #foot3{
+    margin-top: 278px;
+  }
+  #tablalist{
+    margin-top: 30px;
+  }

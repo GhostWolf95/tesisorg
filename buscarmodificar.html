@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+  <script src="js/jquery.min.js"></script>
+  <script src="bootstrap/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/estilo.css">
+</head>
+<body>
+  <header >
+		<div class="row">
+  			<div class="col-md-1">
+  				<img class="logo" src="images/logo.png">
+				<h3>Tesis.org</h3>
+  			</div>
+  			<div class="col-md-11">
+  				<nav class="container">
+					<div id="opciones">
+              			<ul class="nav navbar-nav">
+                      <li><a href="index.html">Inicio</a></li>
+                			<li><a href="registrarproyecto.html">Registrar Proyectos</a></li>
+                			<li><a href="listarproyectos.php">Listar Proyecto</a></li>
+                			<li><a href="buscarmodificar.html">Modificar Proyecto</a></li>
+                			<li><a href="buscareliminar.html">Eliminar Proyecto</a></li>
+              			</ul>
+            		</div>
+        		</nav>
+  			</div>
+		</div>
+    </header>
+    <div class="container">
+      <div class="row"  id="cont1">
+        <div class="col-md-3"></div>
+        <div class="col-md-6">
+        <form class="form-horizontal" role="form" action="formodificar.php" method="post">
+          <div class="form-group">
+            <label for="forid" class="col-md-4 control-label">Proyecto a modificar</label>
+            <div class="col-md-8">
+              <input type="text" class="form-control" id="forid" name="forid"
+                     placeholder="Ingrezar el Identificador del proyecto">
+            </div>
+          </div>
+
+          <button type="submit" id="btn2" class="btn btn-success">Enviar</button>
+        </form>
+
+      </div>
+      <div class="col-md-3"></div>
+    </div>
+  </div>
+
+
+    <footer id="foot2"> Derechos reservados 2016. Alex Dario Salgado Montealegre -  Kelly Johanna Villareal Mestra </footer>
+</body>
+</html>
